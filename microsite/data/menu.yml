@@ -1,0 +1,6 @@
+options:
+  - title: Documentation
+    url: docs/index.html 
+
+  - title: Functions
+    url: docs/functions.html
