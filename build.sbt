@@ -14,18 +14,18 @@ lazy val root = (project in file(".")).
     micrositeName := "Learning Scala",
     micrositeDescription := "Notes on Scala",
     micrositeBaseUrl := "/learning-scala",
+    micrositeDocumentationUrl := "/learning-scala/docs",
     micrositeAuthor := "Oscar Vargas Torres",
     micrositeHomepage := "https://oscarvarto.github.io/learning-scala/",
     micrositeTwitterCreator := "@oscarvarto",
     micrositeGithubOwner := "oscarvarto",
     micrositeGithubRepo := "learning-scala",
     micrositeGitterChannel := true,
-    //micrositeGitterChannelUrl := "oscarvarto/learning-scala",
-    micrositeHighlightTheme := "monokai",
+    micrositeGitterChannelUrl := "IntersysConsulting/learning-scala",
+    micrositeHighlightTheme := "color-brewer",
     micrositeHighlightLanguages ++= Seq("haskell", "fsharp", "cs", "python"),
     micrositeCDNDirectives := CdnDirectives(
       jsList = List(
-        //"https://cdnjs.cloudflare.com/ajax/libs/ag-grid/7.0.2/ag-grid.min.js"
         "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML,http://127.0.0.1:4000/learning-scala/js/mathjax-config.js"
       ),
       cssList = List(

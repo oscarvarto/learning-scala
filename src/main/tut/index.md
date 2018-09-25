@@ -1,6 +1,6 @@
 ---
 layout: home
-title:  "Learning Scala"
+title: "Learning Scala"
 section: "home"
 ---
 
@@ -8,18 +8,18 @@ section: "home"
 
 This is how you sum two integers in Scala:
 
-``` tut
+```tut
 1 + 1
 ```
 
 This is a Scala code block:
 
-``` scala
+```scala
 val x = List(1, 2, 3)
 ```
 
-But, I don't think I can support inline syntax highlighting out-of-the-box:
-`println("Hello, World!)`{.scala}
+Inline code example (no inline syntax highlighting out-of-the-box for gfm):
+`println("Hello, World!)`.
 
 ## Some math using MathJax
 
