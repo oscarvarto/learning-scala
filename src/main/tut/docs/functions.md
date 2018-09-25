@@ -5,7 +5,7 @@ title: "Functions"
 
 # Functions
 
-**Note**: We will use the [Scala Language Specification version 2.12](https://www.scala-lang.org/files/archive/spec/2.12/) as much as possible as an authoritative reference.
+**Note**: We will use the [Scala Language Specification version 2.12] as much as possible as an authoritative reference.
 
 ## Function types
 
@@ -35,8 +35,5 @@ where
 * `A`, `B`, ... are the types of the input parameters; and
 * `C` is the type of the result.
 
-## References
-
-### From the Scala Language Specification (SLS) 2.12
-
+[Scala Language Specification version 2.12]: https://www.scala-lang.org/files/archive/spec/2.12/
 [Function Types]: https://www.scala-lang.org/files/archive/spec/2.12/03-types.html#function-types "SLS 2.12, section 3.2.9 Function Types"

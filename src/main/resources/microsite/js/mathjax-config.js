@@ -5,4 +5,4 @@ MathJax.Hub.Config({
     }
 });
 
-MathJax.Ajax.loadComplete("http://127.0.0.1:4000/learning-scala/js/mathjax-config.js");
+MathJax.Ajax.loadComplete("https://oscarvarto.github.io/learning-scala/js/mathjax-config.js");

@@ -26,7 +26,7 @@ lazy val root = (project in file(".")).
     micrositeHighlightLanguages ++= Seq("haskell", "fsharp", "cs", "python"),
     micrositeCDNDirectives := CdnDirectives(
       jsList = List(
-        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML,http://127.0.0.1:4000/learning-scala/js/mathjax-config.js"
+        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML,https://oscarvarto.github.io/learning-scala/js/mathjax-config.js"
       ),
       cssList = List(
         //"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"
