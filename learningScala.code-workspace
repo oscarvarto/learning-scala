@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/oscarvarto/gitRepos/essential-scala-nanodegree/module4-functions/module4functions"
+		}
+	],
+	"settings": {
+		"pandoc.pdfOptString": "-s -N --bibliography=scala-essentials.bib --variable colorlinks=true --filter pandoc-latex-fontsize --filter pandoc-latex-admonition",
+		"markdown-preview-enhanced.pandocMarkdownFlavor": "markdown+tex_math_single_backslash+inline_code_attributes+fenced_divs"
+	}
+}

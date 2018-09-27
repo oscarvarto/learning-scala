@@ -7,7 +7,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "oscarvarto.github.io",
-      scalaVersion := "2.12.6",
+      scalaVersion := "2.12.7",
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "learning-scala",
@@ -32,5 +32,8 @@ lazy val root = (project in file(".")).
         //"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"
       )
     ),
-    libraryDependencies += scalaTest % Test
+    libraryDependencies ++= Seq(
+      atto,
+      scalaTest % Test
+    )
   )
